@@ -1,0 +1,70 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 500px;
+  height: 500px;
+}
+
+.top, .middle, .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.table {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.table:hover, input:checked + label {
+  background-color: rgba(255, 145, 0, 0.6);
+}
+
+.tableContainer input {
+  display: none;
+}
+
+.form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.formInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 400px;
+  height: 400px;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+}
+
+.formInput button {
+  margin-top: 2rem;
+  background-color: rgba(255, 145, 0, 0.6);
+  color: #131313;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  color: #131313;
+}
+
+.App span {
+  color: rgb(208, 255, 0);
+}
